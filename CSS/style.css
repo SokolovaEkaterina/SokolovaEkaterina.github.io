@@ -17,7 +17,7 @@
   }
 
 
-
+/*нижние ссылки*/
   footer
   {
    display: flex;
@@ -31,22 +31,36 @@
      margin: 0;
      padding: 0;
      margin-left: 10px;
+    }
 
-     
-     
-  }
-  .square#one {
-  flex: 2 1 300px;
+.ilLog 
+{
+flex-grow: 2;
+flex-basis:400px ;
 }
-.square#two {
+
+.liElement 
+{
+  flex-grow: 1;
+}
+
+  .square#one 
+  {
+  flex: 2 1 300px;
+  }
+
+.square#two 
+{
   flex: 1 2 300px;
 }
-  .menuElement{
+
+  .menuElement
+  {
       margin-left: 25px;
       border-left: 5px solid rgb(149, 238, 169);
       height: 23px;
-      
   }
+  
   header
 {
    text-align: center;
